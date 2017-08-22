@@ -9,11 +9,13 @@ Check which version do you have installed in you terminal by inserting this comm
 ruby -version
 ´´´
 I will use version 2.3.3:
-´´´Ruby
+
+´´´ruby
 rvm install 2.3.3
 ´´´
 
 Inside my project I should create a Gemfile like this one:
+
 ´´´ruby
 source 'https://rubygems.org'
 
