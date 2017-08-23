@@ -26,3 +26,6 @@ gem 'selenium-webdriver', '~> 3.5', '>= 3.5.1'
 gem 'rspec', '~> 3.6'
 gem 'faker', '~> 1.8', '>= 1.8.4'
 ```
+
+Now that you have created your first Gemfile, you need a easy way to manage those gems.
+I recommend you to [install Bundler]("http://bundler.io/") to help you with gems management.
