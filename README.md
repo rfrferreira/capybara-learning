@@ -30,4 +30,4 @@ gem 'faker', '~> 1.8', '>= 1.8.4'
 Now that I have created my first Gemfile, I need a easy way to manage those gems.
 I [installed Bundler](http://bundler.io/) to help me with gems management.
 
-After all this stuff, I just need to do to [RubyGems](https://rubygems.org/) and look for the most suitable gems for my project needs.
+After all this stuff, I just need to go to [RubyGems](https://rubygems.org/) and look for the most suitable gems for my project needs.
