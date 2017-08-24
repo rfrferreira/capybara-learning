@@ -1,8 +1,11 @@
 # capybara-learning
 Learning Capybara with Ruby
 
+## Install RVM
+
 The first thing to do it's [install RVM](https://rvm.io/rvm/install) in order to manage your Ruby versions in the easiest way.
 
+## Install Ruby
 After this first step, you should install the Ruby version that best suits your needs.
 Check which version do you have installed in you terminal by inserting this command:
 
@@ -14,7 +17,18 @@ I will use version 2.3.3:
 ```ruby
 rvm install 2.3.3
 ```
+## Project Structure
 
+Next step is to create my project structure.
+
+### Cucumber Structure
+
+Now, inside your project folder you can create a basic Cucumber structure by just running the next command in your terminal while in your project folder:
+```ruby
+cucumber --init
+```
+
+### Gemfile
 Inside my project I should create a Gemfile like this one:
 
 ```ruby
@@ -26,6 +40,7 @@ gem 'selenium-webdriver', '~> 3.5', '>= 3.5.1'
 gem 'rspec', '~> 3.6'
 gem 'faker', '~> 1.8', '>= 1.8.4'
 ```
+## Manage those Gems ^^
 
 Now that I have created my first Gemfile, I need a easy way to manage those gems.
 I [installed Bundler](http://bundler.io/) to help me with gems management.
