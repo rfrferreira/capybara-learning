@@ -19,7 +19,7 @@ rvm install 2.3.3
 ```
 ## Project Structure
 
-Next step is to create my project structure.
+Next step is to create my basic project structure.
 
 ### Cucumber Structure
 
@@ -53,7 +53,7 @@ My project structure is designed in a way that makes it easy to manipulate and t
 
 In functional test environment, you're always challenged with changes. An element that has is name or class changed or simply an element that doesn't exists anymore. Even one small change can break all your tests.
 
-### My structure explained...fast way
+### This project explained...fast way
 
 #### hooks files (.rb):
 Some routines, variables, etc that are store here so I can use it everywhere;
